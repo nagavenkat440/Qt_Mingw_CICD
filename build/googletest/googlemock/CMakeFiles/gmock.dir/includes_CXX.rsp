@@ -1,0 +1,1 @@
+-IE:/Krishna/Qt_CICD_Demo/Qt_Mingw_CICD/build/googletest/googlemock/gmock_autogen/include -IE:/Krishna/Qt_CICD_Demo/Qt_Mingw_CICD/googletest/googlemock/include -IE:/Krishna/Qt_CICD_Demo/Qt_Mingw_CICD/googletest/googlemock -isystem E:/Krishna/Qt_CICD_Demo/Qt_Mingw_CICD/googletest/googletest/include -isystem E:/Krishna/Qt_CICD_Demo/Qt_Mingw_CICD/googletest/googletest

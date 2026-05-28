@@ -1,0 +1,29 @@
+Start testing: May 28 16:29 India Standard Time
+----------------------------------------------------------
+1/1 Testing: runTests
+1/1 Test: runTests
+Command: "E:/Krishna/Qt_CICD_Demo/Qt_Mingw_CICD/build/runTests.exe"
+Directory: E:/Krishna/Qt_CICD_Demo/Qt_Mingw_CICD/build
+"runTests" start time: May 28 16:29 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\googletest\googletest\src\gtest_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CalculatorTest
+[ RUN      ] CalculatorTest.AddTest
+[       OK ] CalculatorTest.AddTest (0 ms)
+[----------] 1 test from CalculatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Passed.
+"runTests" end time: May 28 16:29 India Standard Time
+"runTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 28 16:29 India Standard Time
