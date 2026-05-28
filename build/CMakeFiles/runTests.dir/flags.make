@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = @CMakeFiles/runTests.dir/includes_CXX.rsp
 
-CXX_FLAGS =  --coverage -g -std=gnu++1z
+CXX_FLAGS =  --coverage -O3 -DNDEBUG -std=gnu++1z
 

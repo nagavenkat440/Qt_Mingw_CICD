@@ -129,9 +129,9 @@ Qt_Mingw_CICD.exe: CMakeFiles/Qt_Mingw_CICD.dir/Qt_Mingw_CICD_autogen/mocs_compi
 Qt_Mingw_CICD.exe: CMakeFiles/Qt_Mingw_CICD.dir/main.cpp.obj
 Qt_Mingw_CICD.exe: CMakeFiles/Qt_Mingw_CICD.dir/MainWindow.cpp.obj
 Qt_Mingw_CICD.exe: CMakeFiles/Qt_Mingw_CICD.dir/build.make
-Qt_Mingw_CICD.exe: C:/Qt/Qt5.12.12/5.12.12/mingw73_64/lib/libQt5Widgetsd.a
-Qt_Mingw_CICD.exe: C:/Qt/Qt5.12.12/5.12.12/mingw73_64/lib/libQt5Guid.a
-Qt_Mingw_CICD.exe: C:/Qt/Qt5.12.12/5.12.12/mingw73_64/lib/libQt5Cored.a
+Qt_Mingw_CICD.exe: C:/Qt/Qt5.12.12/5.12.12/mingw73_64/lib/libQt5Widgets.a
+Qt_Mingw_CICD.exe: C:/Qt/Qt5.12.12/5.12.12/mingw73_64/lib/libQt5Gui.a
+Qt_Mingw_CICD.exe: C:/Qt/Qt5.12.12/5.12.12/mingw73_64/lib/libQt5Core.a
 Qt_Mingw_CICD.exe: CMakeFiles/Qt_Mingw_CICD.dir/linkLibs.rsp
 Qt_Mingw_CICD.exe: CMakeFiles/Qt_Mingw_CICD.dir/objects1.rsp
 Qt_Mingw_CICD.exe: CMakeFiles/Qt_Mingw_CICD.dir/link.txt

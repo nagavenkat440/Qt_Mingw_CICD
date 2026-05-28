@@ -67,7 +67,7 @@ include googletest/googlemock/CMakeFiles/gmock_main_autogen.dir/progress.make
 
 googletest/googlemock/CMakeFiles/gmock_main_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target gmock_main"
-	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googlemock && "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Krishna/Qt_CICD_Demo/Qt_Mingw_CICD/build/googletest/googlemock/CMakeFiles/gmock_main_autogen.dir/AutogenInfo.json Debug
+	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googlemock && "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Krishna/Qt_CICD_Demo/Qt_Mingw_CICD/build/googletest/googlemock/CMakeFiles/gmock_main_autogen.dir/AutogenInfo.json Release
 
 googletest/googlemock/CMakeFiles/gmock_main_autogen.dir/codegen:
 .PHONY : googletest/googlemock/CMakeFiles/gmock_main_autogen.dir/codegen

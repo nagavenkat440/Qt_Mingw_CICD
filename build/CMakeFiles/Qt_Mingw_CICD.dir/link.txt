@@ -1,3 +1,3 @@
 "C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Qt_Mingw_CICD.dir/objects.a
 C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\ar.exe qc CMakeFiles\Qt_Mingw_CICD.dir/objects.a @CMakeFiles\Qt_Mingw_CICD.dir\objects1.rsp
-C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe  --coverage -g  --coverage -Wl,--whole-archive CMakeFiles\Qt_Mingw_CICD.dir/objects.a -Wl,--no-whole-archive -o Qt_Mingw_CICD.exe -Wl,--out-implib,libQt_Mingw_CICD.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Qt_Mingw_CICD.dir\linkLibs.rsp
+C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe  --coverage -O3 -DNDEBUG  --coverage -Wl,--whole-archive CMakeFiles\Qt_Mingw_CICD.dir/objects.a -Wl,--no-whole-archive -o Qt_Mingw_CICD.exe -Wl,--out-implib,libQt_Mingw_CICD.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Qt_Mingw_CICD.dir\linkLibs.rsp

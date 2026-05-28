@@ -67,7 +67,7 @@ include CMakeFiles/calculator_autogen.dir/progress.make
 
 CMakeFiles/calculator_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target calculator"
-	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Krishna/Qt_CICD_Demo/Qt_Mingw_CICD/build/CMakeFiles/calculator_autogen.dir/AutogenInfo.json Debug
+	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Krishna/Qt_CICD_Demo/Qt_Mingw_CICD/build/CMakeFiles/calculator_autogen.dir/AutogenInfo.json Release
 
 CMakeFiles/calculator_autogen.dir/codegen:
 .PHONY : CMakeFiles/calculator_autogen.dir/codegen

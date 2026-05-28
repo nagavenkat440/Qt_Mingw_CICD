@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "../../bin/libgtestpdb_debug_postfix-NOTFOUND.pdb"
+  "../../bin/libgtest.pdb"
   "../../lib/libgtest.a"
   "CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.obj.d"
