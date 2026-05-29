@@ -40,10 +40,13 @@ stages {
     }
 
     stage('Test') {
-        steps {
-            bat 'ctest --test-dir build --output-on-failure'
-        }
-    }
+steps {
+bat '''
+build\runTests.exe --gtest_output=xml:test_results.xml
+'''
+}
+}
+
 
     stage('Archive Artifacts') {
         steps {
@@ -53,18 +56,23 @@ stages {
 }
 
 post {
-    always {
-        echo 'Pipeline Finished'
-    }
-
-    success {
-        echo 'Build and Tests Passed'
-    }
-
-    failure {
-        echo 'Build or Tests Failed'
-    }
+always {
+junit 'test_results.xml'
+echo 'Pipeline Finished'
 }
+
+```
+success {
+    echo 'Build and Tests Passed'
+}
+
+failure {
+    echo 'Build or Tests Failed'
+}
+```
+
+}
+
 
 
 }
