@@ -47,14 +47,6 @@ stages {
         }
     }
 
-stage('WhoAmI') {
-    steps {
-        bat '''
-        whoami
-        python -m gcovr --version
-        '''
-    }
-}
 
 stage('Coverage') {
     steps {
