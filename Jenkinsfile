@@ -1,6 +1,5 @@
 pipeline {
 
-
 agent any
 
 stages {
@@ -15,8 +14,9 @@ stages {
     stage('Clean') {
         steps {
             bat '''
-            taskkill /F /IM Qt_Mingw_CICD.exe 2>nul
-            if exist build rmdir /S /Q build
+            if exist build (
+                rmdir /S /Q build
+            )
             '''
         }
     }
@@ -29,7 +29,7 @@ stages {
 
     stage('Build') {
         steps {
-            bat 'cmake --build build --config Debug'
+            bat 'cmake --build build'
         }
     }
 
