@@ -1,6 +1,11 @@
 pipeline {
 
+```
 agent any
+
+environment {
+    PATH = "C:\\Qt\\Qt5.12.12\\Tools\\mingw730_64\\bin;C:\\Qt\\Qt5.12.12\\5.12.12\\mingw73_64\\bin;${env.PATH}"
+}
 
 stages {
 
@@ -23,7 +28,13 @@ stages {
 
     stage('Configure') {
         steps {
-            bat 'cmake -S . -B build'
+            bat '''
+            cmake -S . -B build ^
+            -G "MinGW Makefiles" ^
+            -DCMAKE_C_COMPILER=C:/Qt/Qt5.12.12/Tools/mingw730_64/bin/gcc.exe ^
+            -DCMAKE_CXX_COMPILER=C:/Qt/Qt5.12.12/Tools/mingw730_64/bin/g++.exe ^
+            -DCMAKE_PREFIX_PATH=C:/Qt/Qt5.12.12/5.12.12/mingw73_64
+            '''
         }
     }
 
@@ -60,6 +71,6 @@ post {
         echo 'Build or Tests Failed'
     }
 }
-
+```
 
 }
