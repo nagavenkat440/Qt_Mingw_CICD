@@ -58,7 +58,6 @@ stages {
 }
 
 post {
-
     always {
         echo 'Pipeline Finished'
     }
