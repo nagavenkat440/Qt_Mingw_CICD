@@ -76,45 +76,45 @@ CMakeFiles/Qt_Mingw_CICD.dir/Qt_Mingw_CICD_autogen/mocs_compilation.cpp.obj: CMa
 CMakeFiles/Qt_Mingw_CICD.dir/Qt_Mingw_CICD_autogen/mocs_compilation.cpp.obj: Qt_Mingw_CICD_autogen/mocs_compilation.cpp
 CMakeFiles/Qt_Mingw_CICD.dir/Qt_Mingw_CICD_autogen/mocs_compilation.cpp.obj: CMakeFiles/Qt_Mingw_CICD.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Qt_Mingw_CICD.dir/Qt_Mingw_CICD_autogen/mocs_compilation.cpp.obj"
-	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Qt_Mingw_CICD.dir/Qt_Mingw_CICD_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\Qt_Mingw_CICD.dir\Qt_Mingw_CICD_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\Qt_Mingw_CICD.dir\Qt_Mingw_CICD_autogen\mocs_compilation.cpp.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\Qt_Mingw_CICD_autogen\mocs_compilation.cpp
+	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Qt_Mingw_CICD.dir/Qt_Mingw_CICD_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\Qt_Mingw_CICD.dir\Qt_Mingw_CICD_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\Qt_Mingw_CICD.dir\Qt_Mingw_CICD_autogen\mocs_compilation.cpp.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\Qt_Mingw_CICD_autogen\mocs_compilation.cpp
 
 CMakeFiles/Qt_Mingw_CICD.dir/Qt_Mingw_CICD_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Qt_Mingw_CICD.dir/Qt_Mingw_CICD_autogen/mocs_compilation.cpp.i"
-	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\Qt_Mingw_CICD_autogen\mocs_compilation.cpp > CMakeFiles\Qt_Mingw_CICD.dir\Qt_Mingw_CICD_autogen\mocs_compilation.cpp.i
+	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\Qt_Mingw_CICD_autogen\mocs_compilation.cpp > CMakeFiles\Qt_Mingw_CICD.dir\Qt_Mingw_CICD_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/Qt_Mingw_CICD.dir/Qt_Mingw_CICD_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Qt_Mingw_CICD.dir/Qt_Mingw_CICD_autogen/mocs_compilation.cpp.s"
-	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\Qt_Mingw_CICD_autogen\mocs_compilation.cpp -o CMakeFiles\Qt_Mingw_CICD.dir\Qt_Mingw_CICD_autogen\mocs_compilation.cpp.s
+	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\Qt_Mingw_CICD_autogen\mocs_compilation.cpp -o CMakeFiles\Qt_Mingw_CICD.dir\Qt_Mingw_CICD_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/Qt_Mingw_CICD.dir/main.cpp.obj: CMakeFiles/Qt_Mingw_CICD.dir/flags.make
 CMakeFiles/Qt_Mingw_CICD.dir/main.cpp.obj: CMakeFiles/Qt_Mingw_CICD.dir/includes_CXX.rsp
 CMakeFiles/Qt_Mingw_CICD.dir/main.cpp.obj: E:/Krishna/Qt_CICD_Demo/Qt_Mingw_CICD/main.cpp
 CMakeFiles/Qt_Mingw_CICD.dir/main.cpp.obj: CMakeFiles/Qt_Mingw_CICD.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Qt_Mingw_CICD.dir/main.cpp.obj"
-	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Qt_Mingw_CICD.dir/main.cpp.obj -MF CMakeFiles\Qt_Mingw_CICD.dir\main.cpp.obj.d -o CMakeFiles\Qt_Mingw_CICD.dir\main.cpp.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\main.cpp
+	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Qt_Mingw_CICD.dir/main.cpp.obj -MF CMakeFiles\Qt_Mingw_CICD.dir\main.cpp.obj.d -o CMakeFiles\Qt_Mingw_CICD.dir\main.cpp.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\main.cpp
 
 CMakeFiles/Qt_Mingw_CICD.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Qt_Mingw_CICD.dir/main.cpp.i"
-	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\main.cpp > CMakeFiles\Qt_Mingw_CICD.dir\main.cpp.i
+	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\main.cpp > CMakeFiles\Qt_Mingw_CICD.dir\main.cpp.i
 
 CMakeFiles/Qt_Mingw_CICD.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Qt_Mingw_CICD.dir/main.cpp.s"
-	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\main.cpp -o CMakeFiles\Qt_Mingw_CICD.dir\main.cpp.s
+	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\main.cpp -o CMakeFiles\Qt_Mingw_CICD.dir\main.cpp.s
 
 CMakeFiles/Qt_Mingw_CICD.dir/MainWindow.cpp.obj: CMakeFiles/Qt_Mingw_CICD.dir/flags.make
 CMakeFiles/Qt_Mingw_CICD.dir/MainWindow.cpp.obj: CMakeFiles/Qt_Mingw_CICD.dir/includes_CXX.rsp
 CMakeFiles/Qt_Mingw_CICD.dir/MainWindow.cpp.obj: E:/Krishna/Qt_CICD_Demo/Qt_Mingw_CICD/MainWindow.cpp
 CMakeFiles/Qt_Mingw_CICD.dir/MainWindow.cpp.obj: CMakeFiles/Qt_Mingw_CICD.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Qt_Mingw_CICD.dir/MainWindow.cpp.obj"
-	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Qt_Mingw_CICD.dir/MainWindow.cpp.obj -MF CMakeFiles\Qt_Mingw_CICD.dir\MainWindow.cpp.obj.d -o CMakeFiles\Qt_Mingw_CICD.dir\MainWindow.cpp.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\MainWindow.cpp
+	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Qt_Mingw_CICD.dir/MainWindow.cpp.obj -MF CMakeFiles\Qt_Mingw_CICD.dir\MainWindow.cpp.obj.d -o CMakeFiles\Qt_Mingw_CICD.dir\MainWindow.cpp.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\MainWindow.cpp
 
 CMakeFiles/Qt_Mingw_CICD.dir/MainWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Qt_Mingw_CICD.dir/MainWindow.cpp.i"
-	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\MainWindow.cpp > CMakeFiles\Qt_Mingw_CICD.dir\MainWindow.cpp.i
+	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\MainWindow.cpp > CMakeFiles\Qt_Mingw_CICD.dir\MainWindow.cpp.i
 
 CMakeFiles/Qt_Mingw_CICD.dir/MainWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Qt_Mingw_CICD.dir/MainWindow.cpp.s"
-	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\MainWindow.cpp -o CMakeFiles\Qt_Mingw_CICD.dir\MainWindow.cpp.s
+	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\MainWindow.cpp -o CMakeFiles\Qt_Mingw_CICD.dir\MainWindow.cpp.s
 
 # Object files for target Qt_Mingw_CICD
 Qt_Mingw_CICD_OBJECTS = \

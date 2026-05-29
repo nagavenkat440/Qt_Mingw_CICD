@@ -3,8 +3,20 @@
 
 TEST(CalculatorTest, AddTest)
 {
-    Calculator calc;
+    EXPECT_EQ(5, Calculator::add(2, 3));
+}
 
-    EXPECT_EQ(calc.add(5, 5), 10);
-    EXPECT_EQ(calc.add(10, 2), 12);
+TEST(CalculatorTest, SubtractTest)
+{
+    EXPECT_EQ(2, Calculator::subtract(5, 3));
+}
+
+TEST(CalculatorTest, MultiplyTest)
+{
+    EXPECT_EQ(15, Calculator::multiply(3, 5));
+}
+
+TEST(CalculatorTest, DivideTest)
+{
+    EXPECT_EQ(5, Calculator::divide(10, 2));
 }

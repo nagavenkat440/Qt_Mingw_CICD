@@ -76,30 +76,30 @@ googletest/googlemock/CMakeFiles/gmock.dir/gmock_autogen/mocs_compilation.cpp.ob
 googletest/googlemock/CMakeFiles/gmock.dir/gmock_autogen/mocs_compilation.cpp.obj: googletest/googlemock/gmock_autogen/mocs_compilation.cpp
 googletest/googlemock/CMakeFiles/gmock.dir/gmock_autogen/mocs_compilation.cpp.obj: googletest/googlemock/CMakeFiles/gmock.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googletest/googlemock/CMakeFiles/gmock.dir/gmock_autogen/mocs_compilation.cpp.obj"
-	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googlemock && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT googletest/googlemock/CMakeFiles/gmock.dir/gmock_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\gmock.dir\gmock_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\gmock.dir\gmock_autogen\mocs_compilation.cpp.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googlemock\gmock_autogen\mocs_compilation.cpp
+	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googlemock && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT googletest/googlemock/CMakeFiles/gmock.dir/gmock_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\gmock.dir\gmock_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\gmock.dir\gmock_autogen\mocs_compilation.cpp.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googlemock\gmock_autogen\mocs_compilation.cpp
 
 googletest/googlemock/CMakeFiles/gmock.dir/gmock_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gmock.dir/gmock_autogen/mocs_compilation.cpp.i"
-	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googlemock && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googlemock\gmock_autogen\mocs_compilation.cpp > CMakeFiles\gmock.dir\gmock_autogen\mocs_compilation.cpp.i
+	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googlemock && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googlemock\gmock_autogen\mocs_compilation.cpp > CMakeFiles\gmock.dir\gmock_autogen\mocs_compilation.cpp.i
 
 googletest/googlemock/CMakeFiles/gmock.dir/gmock_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/gmock_autogen/mocs_compilation.cpp.s"
-	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googlemock && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googlemock\gmock_autogen\mocs_compilation.cpp -o CMakeFiles\gmock.dir\gmock_autogen\mocs_compilation.cpp.s
+	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googlemock && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googlemock\gmock_autogen\mocs_compilation.cpp -o CMakeFiles\gmock.dir\gmock_autogen\mocs_compilation.cpp.s
 
 googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: googletest/googlemock/CMakeFiles/gmock.dir/flags.make
 googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: googletest/googlemock/CMakeFiles/gmock.dir/includes_CXX.rsp
 googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: E:/Krishna/Qt_CICD_Demo/Qt_Mingw_CICD/googletest/googlemock/src/gmock-all.cc
 googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: googletest/googlemock/CMakeFiles/gmock.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
-	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googlemock && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj -MF CMakeFiles\gmock.dir\src\gmock-all.cc.obj.d -o CMakeFiles\gmock.dir\src\gmock-all.cc.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\googletest\googlemock\src\gmock-all.cc
+	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googlemock && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj -MF CMakeFiles\gmock.dir\src\gmock-all.cc.obj.d -o CMakeFiles\gmock.dir\src\gmock-all.cc.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\googletest\googlemock\src\gmock-all.cc
 
 googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gmock.dir/src/gmock-all.cc.i"
-	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googlemock && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\googletest\googlemock\src\gmock-all.cc > CMakeFiles\gmock.dir\src\gmock-all.cc.i
+	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googlemock && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\googletest\googlemock\src\gmock-all.cc > CMakeFiles\gmock.dir\src\gmock-all.cc.i
 
 googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/src/gmock-all.cc.s"
-	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googlemock && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\googletest\googlemock\src\gmock-all.cc -o CMakeFiles\gmock.dir\src\gmock-all.cc.s
+	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googlemock && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\googletest\googlemock\src\gmock-all.cc -o CMakeFiles\gmock.dir\src\gmock-all.cc.s
 
 # Object files for target gmock
 gmock_OBJECTS = \

@@ -76,30 +76,30 @@ googletest/googletest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.ob
 googletest/googletest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.obj: googletest/googletest/gtest_autogen/mocs_compilation.cpp
 googletest/googletest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.obj: googletest/googletest/CMakeFiles/gtest.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googletest/googletest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.obj"
-	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googletest && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT googletest/googletest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\gtest.dir\gtest_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\gtest.dir\gtest_autogen\mocs_compilation.cpp.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googletest\gtest_autogen\mocs_compilation.cpp
+	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googletest && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT googletest/googletest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\gtest.dir\gtest_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\gtest.dir\gtest_autogen\mocs_compilation.cpp.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googletest\gtest_autogen\mocs_compilation.cpp
 
 googletest/googletest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.i"
-	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googletest && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googletest\gtest_autogen\mocs_compilation.cpp > CMakeFiles\gtest.dir\gtest_autogen\mocs_compilation.cpp.i
+	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googletest && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googletest\gtest_autogen\mocs_compilation.cpp > CMakeFiles\gtest.dir\gtest_autogen\mocs_compilation.cpp.i
 
 googletest/googletest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.s"
-	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googletest && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googletest\gtest_autogen\mocs_compilation.cpp -o CMakeFiles\gtest.dir\gtest_autogen\mocs_compilation.cpp.s
+	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googletest && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googletest\gtest_autogen\mocs_compilation.cpp -o CMakeFiles\gtest.dir\gtest_autogen\mocs_compilation.cpp.s
 
 googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: googletest/googletest/CMakeFiles/gtest.dir/flags.make
 googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: googletest/googletest/CMakeFiles/gtest.dir/includes_CXX.rsp
 googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: E:/Krishna/Qt_CICD_Demo/Qt_Mingw_CICD/googletest/googletest/src/gtest-all.cc
 googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: googletest/googletest/CMakeFiles/gtest.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
-	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googletest && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj -MF CMakeFiles\gtest.dir\src\gtest-all.cc.obj.d -o CMakeFiles\gtest.dir\src\gtest-all.cc.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\googletest\googletest\src\gtest-all.cc
+	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googletest && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj -MF CMakeFiles\gtest.dir\src\gtest-all.cc.obj.d -o CMakeFiles\gtest.dir\src\gtest-all.cc.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\googletest\googletest\src\gtest-all.cc
 
 googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.cc.i"
-	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googletest && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\googletest\googletest\src\gtest-all.cc > CMakeFiles\gtest.dir\src\gtest-all.cc.i
+	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googletest && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\googletest\googletest\src\gtest-all.cc > CMakeFiles\gtest.dir\src\gtest-all.cc.i
 
 googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.cc.s"
-	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googletest && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\googletest\googletest\src\gtest-all.cc -o CMakeFiles\gtest.dir\src\gtest-all.cc.s
+	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googletest && C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\googletest\googletest\src\gtest-all.cc -o CMakeFiles\gtest.dir\src\gtest-all.cc.s
 
 # Object files for target gtest
 gtest_OBJECTS = \

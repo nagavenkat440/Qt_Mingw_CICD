@@ -76,30 +76,30 @@ CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.obj: CMakeFiles/ru
 CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.obj: runTests_autogen/mocs_compilation.cpp
 CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.obj: CMakeFiles/runTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.obj"
-	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\runTests.dir\runTests_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\runTests.dir\runTests_autogen\mocs_compilation.cpp.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\runTests_autogen\mocs_compilation.cpp
+	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\runTests.dir\runTests_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\runTests.dir\runTests_autogen\mocs_compilation.cpp.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\runTests_autogen\mocs_compilation.cpp
 
 CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.i"
-	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\runTests_autogen\mocs_compilation.cpp > CMakeFiles\runTests.dir\runTests_autogen\mocs_compilation.cpp.i
+	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\runTests_autogen\mocs_compilation.cpp > CMakeFiles\runTests.dir\runTests_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/runTests_autogen/mocs_compilation.cpp.s"
-	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\runTests_autogen\mocs_compilation.cpp -o CMakeFiles\runTests.dir\runTests_autogen\mocs_compilation.cpp.s
+	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\runTests_autogen\mocs_compilation.cpp -o CMakeFiles\runTests.dir\runTests_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/runTests.dir/tests/test_calculator.cpp.obj: CMakeFiles/runTests.dir/flags.make
 CMakeFiles/runTests.dir/tests/test_calculator.cpp.obj: CMakeFiles/runTests.dir/includes_CXX.rsp
 CMakeFiles/runTests.dir/tests/test_calculator.cpp.obj: E:/Krishna/Qt_CICD_Demo/Qt_Mingw_CICD/tests/test_calculator.cpp
 CMakeFiles/runTests.dir/tests/test_calculator.cpp.obj: CMakeFiles/runTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/runTests.dir/tests/test_calculator.cpp.obj"
-	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/test_calculator.cpp.obj -MF CMakeFiles\runTests.dir\tests\test_calculator.cpp.obj.d -o CMakeFiles\runTests.dir\tests\test_calculator.cpp.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\tests\test_calculator.cpp
+	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runTests.dir/tests/test_calculator.cpp.obj -MF CMakeFiles\runTests.dir\tests\test_calculator.cpp.obj.d -o CMakeFiles\runTests.dir\tests\test_calculator.cpp.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\tests\test_calculator.cpp
 
 CMakeFiles/runTests.dir/tests/test_calculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/runTests.dir/tests/test_calculator.cpp.i"
-	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\tests\test_calculator.cpp > CMakeFiles\runTests.dir\tests\test_calculator.cpp.i
+	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\tests\test_calculator.cpp > CMakeFiles\runTests.dir\tests\test_calculator.cpp.i
 
 CMakeFiles/runTests.dir/tests/test_calculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/tests/test_calculator.cpp.s"
-	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\tests\test_calculator.cpp -o CMakeFiles\runTests.dir\tests\test_calculator.cpp.s
+	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\tests\test_calculator.cpp -o CMakeFiles\runTests.dir\tests\test_calculator.cpp.s
 
 # Object files for target runTests
 runTests_OBJECTS = \

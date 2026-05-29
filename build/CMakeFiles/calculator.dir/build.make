@@ -76,30 +76,30 @@ CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.obj: CMakeFile
 CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.obj: calculator_autogen/mocs_compilation.cpp
 CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.obj: CMakeFiles/calculator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.obj"
-	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\calculator.dir\calculator_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\calculator.dir\calculator_autogen\mocs_compilation.cpp.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\calculator_autogen\mocs_compilation.cpp
+	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\calculator.dir\calculator_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\calculator.dir\calculator_autogen\mocs_compilation.cpp.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\calculator_autogen\mocs_compilation.cpp
 
 CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.i"
-	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\calculator_autogen\mocs_compilation.cpp > CMakeFiles\calculator.dir\calculator_autogen\mocs_compilation.cpp.i
+	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\calculator_autogen\mocs_compilation.cpp > CMakeFiles\calculator.dir\calculator_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.s"
-	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\calculator_autogen\mocs_compilation.cpp -o CMakeFiles\calculator.dir\calculator_autogen\mocs_compilation.cpp.s
+	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\calculator_autogen\mocs_compilation.cpp -o CMakeFiles\calculator.dir\calculator_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/calculator.dir/calculator.cpp.obj: CMakeFiles/calculator.dir/flags.make
 CMakeFiles/calculator.dir/calculator.cpp.obj: CMakeFiles/calculator.dir/includes_CXX.rsp
 CMakeFiles/calculator.dir/calculator.cpp.obj: E:/Krishna/Qt_CICD_Demo/Qt_Mingw_CICD/calculator.cpp
 CMakeFiles/calculator.dir/calculator.cpp.obj: CMakeFiles/calculator.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calculator.dir/calculator.cpp.obj"
-	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/calculator.cpp.obj -MF CMakeFiles\calculator.dir\calculator.cpp.obj.d -o CMakeFiles\calculator.dir\calculator.cpp.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\calculator.cpp
+	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/calculator.cpp.obj -MF CMakeFiles\calculator.dir\calculator.cpp.obj.d -o CMakeFiles\calculator.dir\calculator.cpp.obj -c E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\calculator.cpp
 
 CMakeFiles/calculator.dir/calculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator.dir/calculator.cpp.i"
-	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\calculator.cpp > CMakeFiles\calculator.dir\calculator.cpp.i
+	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\calculator.cpp > CMakeFiles\calculator.dir\calculator.cpp.i
 
 CMakeFiles/calculator.dir/calculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/calculator.cpp.s"
-	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\calculator.cpp -o CMakeFiles\calculator.dir\calculator.cpp.s
+	C:\Qt\Qt5.12.12\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\calculator.cpp -o CMakeFiles\calculator.dir\calculator.cpp.s
 
 # Object files for target calculator
 calculator_OBJECTS = \

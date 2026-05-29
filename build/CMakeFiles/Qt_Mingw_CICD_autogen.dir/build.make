@@ -67,7 +67,7 @@ include CMakeFiles/Qt_Mingw_CICD_autogen.dir/progress.make
 
 CMakeFiles/Qt_Mingw_CICD_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Qt_Mingw_CICD"
-	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Krishna/Qt_CICD_Demo/Qt_Mingw_CICD/build/CMakeFiles/Qt_Mingw_CICD_autogen.dir/AutogenInfo.json Release
+	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Krishna/Qt_CICD_Demo/Qt_Mingw_CICD/build/CMakeFiles/Qt_Mingw_CICD_autogen.dir/AutogenInfo.json ""
 
 CMakeFiles/Qt_Mingw_CICD_autogen.dir/codegen:
 .PHONY : CMakeFiles/Qt_Mingw_CICD_autogen.dir/codegen

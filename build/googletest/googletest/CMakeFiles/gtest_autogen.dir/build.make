@@ -67,7 +67,7 @@ include googletest/googletest/CMakeFiles/gtest_autogen.dir/progress.make
 
 googletest/googletest/CMakeFiles/gtest_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target gtest"
-	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googletest && "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Krishna/Qt_CICD_Demo/Qt_Mingw_CICD/build/googletest/googletest/CMakeFiles/gtest_autogen.dir/AutogenInfo.json Release
+	cd /d E:\Krishna\Qt_CICD_Demo\Qt_Mingw_CICD\build\googletest\googletest && "C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/Krishna/Qt_CICD_Demo/Qt_Mingw_CICD/build/googletest/googletest/CMakeFiles/gtest_autogen.dir/AutogenInfo.json ""
 
 googletest/googletest/CMakeFiles/gtest_autogen.dir/codegen:
 .PHONY : googletest/googletest/CMakeFiles/gtest_autogen.dir/codegen

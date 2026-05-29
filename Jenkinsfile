@@ -68,6 +68,3 @@ post {
         echo 'Build or Tests Failed'
     }
 }
-
-
-}
