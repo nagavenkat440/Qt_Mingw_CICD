@@ -46,10 +46,17 @@ stages {
             '''
         }
     }
+stage('Coverage') {
+    steps {
+        bat '''
+        python -m gcovr -r . --html --html-details -o coverage.html
+        '''
+    }
+}
 
     stage('Archive Artifacts') {
         steps {
-            archiveArtifacts artifacts: 'build/**/*', fingerprint: true
+            archiveArtifacts artifacts: 'build/**/*,coverage.html', fingerprint: true
         }
     }
 }

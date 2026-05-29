@@ -27,6 +27,9 @@ target_link_libraries(Qt_Mingw_CICD
 Qt5::Widgets
 )
 
+target_compile_options(runTests PRIVATE --coverage)
+target_link_options(runTests PRIVATE --coverage)
+
 # Calculator Library
 
 add_library(calculator
