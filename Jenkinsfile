@@ -49,7 +49,7 @@ stages {
 stage('Coverage') {
     steps {
         bat '''
-        python -m gcovr -r . --html --html-details -o coverage.html
+        "C:\\Program Files (x86)\\Python38-32\\python.exe" -m gcovr -r . --html --html-details -o coverage.html
         '''
     }
 }
