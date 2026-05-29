@@ -39,39 +39,38 @@ stages {
         }
     }
 
-   stage('Test') {
-steps {
-bat '''
-build\runTests.exe --gtest_output=xml:test_results.xml
-'''
-}
-}
+   
+    stage('Test') {
+        steps {
+            bat '''
+            build\\runTests.exe --gtest_output=xml:test_results.xml
+            '''
+        }
+    }
 
-stage('Archive Artifacts') {
-steps {
-archiveArtifacts artifacts: 'build/**/*', fingerprint: true
-}
+
+
+    stage('Archive Artifacts') {
+        steps {
+            archiveArtifacts artifacts: 'build/**/*', fingerprint: true
+        }
+    }
 }
 
 post {
-always {
-junit 'test_results.xml'
-echo 'Pipeline Finished'
+    always {
+        junit 'test_results.xml'
+        echo 'Pipeline Finished'
+    }
+
+    success {
+        echo 'Build and Tests Passed'
+    }
+
+    failure {
+        echo 'Build or Tests Failed'
+    }
 }
-
-
-success {
-    echo 'Build and Tests Passed'
-}
-
-failure {
-    echo 'Build or Tests Failed'
-}
-
-
-}
-
-
 
 
 }
