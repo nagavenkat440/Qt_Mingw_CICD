@@ -1,7 +1,7 @@
 pipeline {
 agent any
 
-```
+
 environment {
     PATH = "C:\\Qt\\Qt5.12.12\\Tools\\mingw730_64\\bin;C:\\Qt\\Qt5.12.12\\5.12.12\\mingw73_64\\bin;${env.PATH}"
 }
@@ -68,6 +68,6 @@ post {
         echo 'Build or Tests Failed'
     }
 }
-```
+
 
 }
