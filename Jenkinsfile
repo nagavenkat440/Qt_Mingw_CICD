@@ -39,7 +39,7 @@ stages {
         }
     }
 
-    stage('Test') {
+   stage('Test') {
 steps {
 bat '''
 build\runTests.exe --gtest_output=xml:test_results.xml
@@ -47,12 +47,10 @@ build\runTests.exe --gtest_output=xml:test_results.xml
 }
 }
 
-
-    stage('Archive Artifacts') {
-        steps {
-            archiveArtifacts artifacts: 'build/**/*', fingerprint: true
-        }
-    }
+stage('Archive Artifacts') {
+steps {
+archiveArtifacts artifacts: 'build/**/*', fingerprint: true
+}
 }
 
 post {
@@ -61,7 +59,7 @@ junit 'test_results.xml'
 echo 'Pipeline Finished'
 }
 
-```
+
 success {
     echo 'Build and Tests Passed'
 }
@@ -69,9 +67,10 @@ success {
 failure {
     echo 'Build or Tests Failed'
 }
-```
+
 
 }
+
 
 
 
