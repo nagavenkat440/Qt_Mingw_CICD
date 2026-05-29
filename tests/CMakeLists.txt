@@ -18,4 +18,7 @@ gtest
 gtest_main
 )
 
+target_compile_options(runTests PRIVATE --coverage)
+target_link_options(runTests PRIVATE --coverage)
+
 add_test(NAME runTests COMMAND runTests)
