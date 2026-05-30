@@ -63,8 +63,28 @@ stages {
 stage('Coverage') {
     steps {
         bat '''
-        "C:\\Program Files (x86)\\Python38-32\\python.exe" -m gcovr -r . --html --html-details -o coverage.html
+        "C:\\Program Files (x86)\\Python38-32\\python.exe" -m gcovr ^
+        -r . ^
+        --filter "calculator.cpp" ^
+        --filter "mainwindow.cpp" ^
+        --filter "main.cpp" ^
+        --html ^
+        --html-details ^
+        -o coverage.html
         '''
+    }
+}
+
+stage('Publish Coverage') {
+    steps {
+        publishHTML([
+            allowMissing: false,
+            alwaysLinkToLastBuild: true,
+            keepAll: true,
+            reportDir: '.',
+            reportFiles: 'coverage.html',
+            reportName: 'Code Coverage Report'
+        ])
     }
 }
 
