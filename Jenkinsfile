@@ -16,11 +16,23 @@ stages {
     }
 
     stage('Clean') {
-        steps {
-            bat 'if exist build rmdir /S /Q build'
-        }
-    }
+    steps {
+        bat '''
+        echo Cleaning workspace...
 
+        taskkill /F /IM runTests.exe >nul 2>&1
+        taskkill /F /IM Qt_Mingw_CICD.exe >nul 2>&1
+
+        timeout /t 2 >nul
+
+        if exist build (
+            rmdir /S /Q build
+        )
+
+        mkdir build
+        '''
+    }
+}
     stage('Configure') {
         steps {
             bat '''
