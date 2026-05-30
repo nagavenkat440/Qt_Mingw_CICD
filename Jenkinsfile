@@ -23,7 +23,7 @@ stages {
         taskkill /F /IM runTests.exe >nul 2>&1
         taskkill /F /IM Qt_Mingw_CICD.exe >nul 2>&1
 
-        timeout /t 2 >nul
+        ping 127.0.0.1 -n 3 > nul
 
         if exist build (
             rmdir /S /Q build
