@@ -83,7 +83,7 @@ stage('Publish Coverage') {
             keepAll: true,
             reportDir: '.',
             reportFiles: 'coverage.html',
-            reportName: 'Code Coverage Report'
+            reportName: 'Code Coverage'
         ])
     }
 }
